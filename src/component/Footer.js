@@ -4,7 +4,7 @@ import SendIcon from "@mui/icons-material/Send";
 
 const Footer = () => {
   return (
-    <div className="relative mt-40">
+    <div className="relative  mt-40 bg-gradient-to-r from-purple-500 to-pink-500 ">
       <div className="border absolute -top-16 left-1/3 px-20 py-6 text-center bg-white rounded-lg">
         <h4 className="text-3xl font-bold">Have a project in Mind ?</h4>
         <button className="rounded-md px-4 py-2 border mt-4 font-semibold text-xl bg-blue-600 text-white">
@@ -17,8 +17,10 @@ const Footer = () => {
             <img src={logo} alt="logo" className="w-40" />
           </div>
           <div>
-            <p className="mb-4 font-semibold text-xl">Viewer Guides</p>
-            <ul className="flex flex-col gap-2 cursor-pointer">
+            <p className="mb-4 font-semibold text-xl text-white">
+              Viewer Guides
+            </p>
+            <ul className="flex flex-col gap-2 cursor-pointer text-white">
               <li>Feature</li>
               <li>Careers</li>
               <li>Blog</li>
@@ -26,8 +28,8 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <p className="mb-4 font-semibold text-xl">Community</p>
-            <ul className="flex flex-col gap-2 cursor-pointer">
+            <p className="mb-4 font-semibold text-xl text-white">Community</p>
+            <ul className="flex flex-col gap-2 cursor-pointer text-white">
               <li>About Us</li>
               <li>Our Clients</li>
               <li>Legal Notice</li>
@@ -35,17 +37,17 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <p className="mb-4 font-semibold text-xl">
+            <p className="mb-4 font-semibold text-xl text-white">
               Sign up for News Letter
             </p>
-            <div className="flex border border-blue-600 ">
+            <div className="flex border border-black-600 ">
               <input
                 type="text"
                 placeholder="Enter Email Address"
-                className="p-2  border-r-2 border-blue-600"
+                className="p-2  border-r-2 border-black-600"
               />
               <button className=" p-2">
-                <SendIcon className="-rotate-45 text-pink-500" />
+                <SendIcon className="-rotate-45 text-white" />
               </button>
             </div>
           </div>
