@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assest/white-min.png";
+import logo from "../../assest/white.png";
 import SendIcon from "@mui/icons-material/Send";
 
 const Footer = () => {
@@ -13,7 +13,7 @@ const Footer = () => {
       </div>
       <div className="border mt-5 px-24 pt-24 pb-5">
         <div className="flex justify-between">
-          <div className="border">
+          <div>
             <img src={logo} alt="logo" className="w-40" />
           </div>
           <div>

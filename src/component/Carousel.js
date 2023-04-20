@@ -1,13 +1,16 @@
 import cone from "../../assest/cone.png";
 import ctwo from "../../assest/ctwo.png";
 import cthree from "../../assest/cthree.png";
+import logo from "../../assest/white.png";
 import "./carousel.css";
 
 const Carousel = () => {
   return (
     <div className="bgAttachment">
-      <nav className="flex bg-pink-600 text-white px-12 py-5 justify-between items-center">
-        <section>Logo</section>
+      <nav className="flex bg-transparent text-white px-20 py-5 justify-between items-center">
+        <section>
+          <img src={logo} alt="logo" className="w-20" />
+        </section>
         <section>
           <ul className="flex gap-x-8 text-xl">
             <li>Home</li>

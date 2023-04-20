@@ -3,6 +3,7 @@ import profilePicTwo from "../../assest/pic2.png";
 import profilePicThree from "../../assest/pic3.png";
 import profilePicFour from "../../assest/pic4.png";
 import profilePicFive from "../../assest/pic5.png";
+import StarIcon from "@mui/icons-material/Star";
 
 const Card = ({ pic, name, title, testimonials }) => {
   return (
@@ -15,10 +16,16 @@ const Card = ({ pic, name, title, testimonials }) => {
             </div>
             <div className="leading-4 flex flex-col gap-y-[5]">
               <p className="text-black-800 font-semibold">{name}</p>
-              <p className="text-blue-500 mb-1   font-medium">{title}</p>
+              <p className="text-blue-500 mb-1  font-medium">{title}</p>
             </div>
           </div>
-          <div>******</div>
+          <div>
+            <StarIcon className=" text-yellow-300" />
+            <StarIcon className=" text-yellow-300" />
+            <StarIcon className=" text-yellow-300" />
+            <StarIcon className=" text-yellow-300" />
+            <StarIcon />
+          </div>
         </div>
         <p className="pl-10 leading-5 text-sm">{testimonials}</p>
       </div>
