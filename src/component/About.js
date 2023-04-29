@@ -3,12 +3,14 @@ import AboutImg from "../../assest/about.png";
 
 const About = () => {
   return (
-    <div className="flex justify-evenly px-8">
+    <div className="flex justify-evenly  sm:flex-col px-8">
       <section className="basis-2/5">
         <img src={AboutImg} alt="" />
       </section>
       <section className="basis-2/5">
-        <h2 className="text-7xl font-bold mb-5">About Us</h2>
+        <h2 className="text-7xl font-bold mb-5 sm:text-3xl sm:text-center sm:my-5">
+          About Us
+        </h2>
         <p className="font-semibold mb-3">
           We are a digital marketing Agency based in islamabad,Pakistan. We work
           with specialized product brands and proffesional services firms who

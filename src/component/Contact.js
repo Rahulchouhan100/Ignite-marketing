@@ -17,7 +17,7 @@ const Contact = () => {
   return (
     <div className="mt-20">
       <h3 className=" text-center font-bold text-6xl ">Feel Free to Reach</h3>
-      <div className="flex mb-10 items-center justify-between gap-7">
+      <div className="flex mb-10 items-center justify-between gap-7 flex-wrap">
         <div className="basis-3/6">
           <img src={contactIcon} alt="contact" className="w-full " />
           <div className="ml-28  border w-96 flex flex-col gap-3 p-4 text-white bg-blue-400 ">

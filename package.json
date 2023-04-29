@@ -2,10 +2,10 @@
   "name": "agency",
   "version": "1.0.0",
   "description": "",
-  "main": "App.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "author": "dev",
   "license": "ISC",

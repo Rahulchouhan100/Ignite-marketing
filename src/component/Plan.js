@@ -3,7 +3,7 @@ import CheckIcon from "@mui/icons-material/Check";
 const Card = ({ price, plan, para }) => {
   return (
     <div className="basis-1/3">
-      <div className=" flex flex-col border m-5 p-5  rounded-lg gap-y-4 shadow-sm bg-white">
+      <div className=" flex flex-col flex-wrap border m-5 p-5  rounded-lg gap-y-4 shadow-sm bg-white">
         <h4 className="font-bold text-1xl">{plan}</h4>
         <hr />
         <p className="text-4xl font-extrabold">
@@ -48,11 +48,11 @@ const Card = ({ price, plan, para }) => {
 };
 const Plan = () => {
   return (
-    <div className="border mt-36 mb-24 pt-5 bg-gradient-to-r from-sky-400 to-indigo-400 ">
-      <h2 className="text-center font-bold text-4xl text-white">
+    <div className="border mt-36 mb-24 pt-5 bg-gradient-to-r from-sky-400 to-indigo-400 sm:mt-5 ">
+      <h2 className="text-center font-bold text-4xl text-white sm:text-3xl">
         Right plan for You
       </h2>
-      <div className="flex justify-center items-center w-full p-10">
+      <div className="flex justify-center items-center w-full p-10 sm:flex-col sm:p-2">
         <Card
           price={"$19.99"}
           plan={"Basic"}

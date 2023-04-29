@@ -20,10 +20,10 @@ const Card = ({ pic, name, title, testimonials }) => {
             </div>
           </div>
           <div>
-            <StarIcon className=" text-yellow-300" />
-            <StarIcon className=" text-yellow-300" />
-            <StarIcon className=" text-yellow-300" />
-            <StarIcon className=" text-yellow-300" />
+            <StarIcon className="text-yellow-300" />
+            <StarIcon className="text-yellow-300" />
+            <StarIcon className="text-yellow-300" />
+            <StarIcon className="text-yellow-300" />
             <StarIcon />
           </div>
         </div>
@@ -36,7 +36,7 @@ const Card = ({ pic, name, title, testimonials }) => {
 const Testimonial = () => {
   return (
     <div>
-      <h2 className="text-center text-5xl font-bold mb-9 mt-4">
+      <h2 className="text-center text-5xl font-bold mb-9 mt-4 sm:text-3xl sm:mt-0 sm:text-red-200">
         What Our Client Says
       </h2>
       <div className="flex  gap-4 flex-wrap justify-center">

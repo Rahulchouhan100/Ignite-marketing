@@ -8,7 +8,7 @@ import brand from "../../assest/brand-image.png";
 const CardServices = ({ photoIcon, title, desc }) => {
   return (
     <>
-      <div className="basis-1/4 border border-gray-200 p-4 rounded-md gap-2 flex flex-col shadow-md">
+      <div className="basis-1/4 border border-gray-200 p-4 rounded-md gap-2 flex flex-col shadow-md psm:basis-full sm:basis-10/12">
         <img src={photoIcon} alt="" className="w-20" />
         <h3 className="font-semibold text-xl">{title}</h3>
         <p>{desc}</p>
@@ -19,8 +19,8 @@ const CardServices = ({ photoIcon, title, desc }) => {
 
 const Services = () => {
   return (
-    <div className="m-10">
-      <h2 className="text-center text-5xl font-bold mb-9 mt-4 underline">
+    <div className="my-10">
+      <h2 className="text-center text-5xl font-bold mb-9 mt-4  psm:text-3xl sm:text-4xl">
         Our Services
       </h2>
       <div className="flex flex-wrap flex-row gap-10 justify-around">

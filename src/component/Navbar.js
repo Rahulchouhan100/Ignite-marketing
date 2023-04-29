@@ -8,7 +8,7 @@ import Carousel from "./Carousel";
 const Navbar = () => {
   return (
     <>
-      <div className="bg-blue-600 flex justify-end items-center text-white gap-2 px-6 py-1">
+      <div className="bg-blue-600 flex justify-end items-center text-white gap-2 px-6 py-1 psm:hidden">
         <YouTubeIcon />
         <TwitterIcon />
         <FacebookIcon />
