@@ -36,10 +36,10 @@ const Card = ({ pic, name, title, testimonials }) => {
 const Testimonial = () => {
   return (
     <div>
-      <h2 className="text-center text-5xl font-bold mb-9 mt-4 sm:text-3xl sm:mt-0 sm:text-red-200">
+      <h2 className="text-center text-5xl font-bold mb-9 mt-4 sm:text-3xl sm:m-0 sm:mb-3">
         What Our Client Says
       </h2>
-      <div className="flex  gap-4 flex-wrap justify-center">
+      <div className="flex  gap-4 flex-wrap justify-center sm:flex-col sm:p-4">
         <Card
           pic={profilePicOne}
           name="Elissa Mark"
