@@ -7,7 +7,7 @@ import "./carousel.css";
 const Carousel = () => {
   return (
     <div className="bgAttachment">
-      <nav className="flex bg-transparent text-white px-20 py-5 justify-between items-center psm:p-0 ">
+      <nav className="flex bg-transparent text-black px-20 py-5 justify-between items-center psm:p-0 sm:hidden">
         <img src={logo} alt="logo" className="w-20" />
         <section>
           <ul className="flex gap-x-8 text-xl">

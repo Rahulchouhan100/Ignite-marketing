@@ -22,7 +22,7 @@ const Contact = () => {
       <div className="flex mb-10 items-center justify-between gap-7 flex-wrap sm:border">
         <div className="basis-3/6">
           <img src={contactIcon} alt="contact" className="w-full sm:w-80" />
-          <div className="ml-28  border w-96 flex flex-col gap-3 p-4 text-white bg-blue-400 sm:ml-0 sm:mx-2">
+          <div className="ml-28  border w-96 flex flex-col gap-3 p-4 text-white bg-blue-400 sm:ml-0 sm:mx-2 sm:w-full">
             <li className="flex gap-2">
               <LocationOnIcon />
               <address>
@@ -64,7 +64,7 @@ const Contact = () => {
             prefix="Message"
             field="message"
             errors={state.errors}
-          />{" "}
+          />
           <br />
           <button
             type="submit"
