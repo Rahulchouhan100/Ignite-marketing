@@ -14,7 +14,7 @@ module.exports = {
 
       xl: { min: "993px", max: "1024px" },
 
-      "2xl": { min: "1025px", max: "1200px" },
+      "2xl": { min: "1025px" },
     },
   },
   plugins: [],
