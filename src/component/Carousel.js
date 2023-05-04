@@ -56,7 +56,7 @@ const Carousel = () => {
           THE IGNITE MARKETING
         </p>
         <h1 className="text-6xl text-center font-semibold leading-tight psm:text-[1.5rem] sm:text-[1.5rem]">
-          We are the Brilliant in terms <br /> of Digital Marketing
+          We are the Brilliant in terms <br /> of Digital Team
         </h1>
         <button className="bg-blue-600 text-white py-3 px-8 font-semibold text-2xl psm:text-sm sm:text-lg sm:mt-2 sm:mb-5 sm:bg-red-300">
           Book Now
